@@ -57,6 +57,10 @@ describe('Centricient SDK', () => {
     });
   });
 
+  it('fails the build', () => {
+    expect(true).toBe(false);
+  });
+
   describe('before calling init', () => {
     it('does not allow sending messages to the messaging app', () => {
       const initError = 'You need to call `init` before posting messages to Centricient';
