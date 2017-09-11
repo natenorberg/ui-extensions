@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Centricient/ui-extensions#readme",
   "devDependencies": {
-    "jest": "^18.1.0"
+    "jest": "21.0.2"
   }
 }
